@@ -14,6 +14,7 @@ Assuming that you are managing your site with Composer. It has been tested with 
 1. `cd` to the root of your project, where your composer.json lives.
 2. Add or append to the following sections to your composer.json:
 
+```
     "repositories": [
         {
             "type": "composer",
@@ -37,11 +38,11 @@ Assuming that you are managing your site with Composer. It has been tested with 
     ],
     "extra": {
         "installer-paths": {
-            // ...
-            "web/libraries/{$name}": ["type:drupal-library"], // add this line to your installer paths section
+            // ... make sure the following line is in your installer paths section...
+            "web/libraries/{$name}": ["type:drupal-library"],
         }
     }
-
+```
 3. `composer require drupal/media_entity_image drupal/media_entity drupal/focal_point drupal/entity_browser drupal/ctools drupal/inline_entity_form drupal/dropzonejs_eb_widget enyo/dropzone`
 4. `cd web`
 5. `drush en media_essentials`

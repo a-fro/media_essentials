@@ -3,6 +3,7 @@ description: 'Provides a simplified media entity configuration for reusable imag
 type: module
 core: 8.x
 dependencies:
+  - ctools
   - datetime
   - dropzonejs_eb_widget
   - entity_browser
@@ -13,9 +14,7 @@ dependencies:
   - image
   - inline_entity_form
   - link
-  - media_entity
-  - media_entity_image
-  - responsive_image
+  - drupal:media (>= 8.5)
   - taxonomy
   - text
   - user
