@@ -31,7 +31,7 @@ Assuming that you are managing your site with Composer. It has been tested with 
         }
     }
 ```
-3. `composer require drupal/focal_point:2.x-dev drupal/entity_browser:2.x-dev drupal/ctools drupal/crop:2.x-dev drupal/inline_entity_form drupal/dropzonejs_eb_widget:2.x-dev drupal/crop:2.x-dev enyo/dropzone`
+3. `composer require drupal/focal_point drupal/entity_browser:2.x-dev drupal/ctools drupal/crop:2.x-dev drupal/inline_entity_form drupal/dropzonejs_eb_widget:2.x-dev drupal/crop:2.x-dev enyo/dropzone`
 4. `cd web`
 5. `drush en media_essentials`
 6. `drush cr`
