@@ -5,8 +5,12 @@ This custom module is an attempt to bundle the configuration and installation of
 
 Currently we cover the following use-cases:
 
+- Drag/drop image addition with dropzone
 - Multi-Upload of images
 - Combining images to a gallery
+
+### Caveats
+**The bundled configuration was created on a site that used the standard profile. If your site is using a different profile, it may not import correctly.**
 
 ### Installation
 Assuming that you are managing your site with Composer. It has been tested with sites generated via [Composer template for Drupal projects](https://github.com/drupal-composer/drupal-project).
